@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    font-family: consolas;
+}
+.bg{
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: url(New.jpg);
+    background-size: cover;
+    z-index: -1;
+    
+}
+.container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(156, 156, 156, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+#pass{
+    color:white;
+    font-family: poppins;
+    font-size: 40px;
+    text-align: center;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 10px 60px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(156, 156, 156, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 1;
+}
